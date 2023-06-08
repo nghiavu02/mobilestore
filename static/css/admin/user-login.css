@@ -1,0 +1,45 @@
+.bg-gradient-primary h1{
+    font-size: 27px;
+    margin: 25px;
+}
+.bg-gradient-primary .form-group{
+    margin-bottom: 30px;
+}
+.bg-gradient-primary .container{
+    margin-top: 20px;
+}
+.bg-gradient-primary .bg-login-image{
+    min-height: 577px;
+}
+.bg-gradient-primary form.user{
+    margin-bottom: 30px;
+}
+.bg-gradient-primary form.user .btn-user{
+    font-size: 20px;
+}
+.bg-gradient-primary .text-center{
+    font-size: 20px;
+}
+.bg-gradient-primary .o-hidden{
+    /*background: transparent;*/
+}
+.bg-gradient-primary .bg-login-image{
+    background: radial-gradient(black, transparent);
+}
+.bg-gradient-primary img{
+    width: 110%;
+    margin-top: 30px;
+}
+.bg-gradient-primary .text-center img{
+    width: 45% !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bg-gradient-primary #status-email,
+.bg-gradient-primary #status-password{
+    color: red;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
+    text-align: center;
+}

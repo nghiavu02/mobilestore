@@ -1,0 +1,25 @@
+.wishlist-page{
+
+}
+.wishlist-page .wishlist-title{
+
+}
+.wishlist-page .wishlist-title h3{
+    text-align: center;
+    color: blue;
+}
+.wishlist-page .wishlist-content{
+    margin-top: 40px;
+}
+
+.wishlist-page img{
+    display: inline-block;
+    width: 60px;
+    height: auto;
+}
+.wishlist-page td{
+    /* border-top: 1px solid black; */
+}
+.wishlist-page a:hover{
+    color: blue !important;
+}

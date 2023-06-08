@@ -1,0 +1,22 @@
+#listAlreadyShipped {
+}
+
+#listAlreadyShipped tr.tr:hover {
+	font-weight: bold;
+	color: white;
+	cursor: pointer;
+	background-color: gray;
+}
+
+#listAlreadyShipped td.tien {
+	color: red;
+	font-weight: bold;
+}
+
+#listAlreadyShipped td.trangthai {
+	color: blue;
+}
+
+#listAlreadyShipped .content {
+	margin-top: 20px;
+}

@@ -1,0 +1,19 @@
+#add-new-category {
+
+}
+#add-new-category .searchCategory{
+    color: red;
+    margin-top: 15px;
+}
+
+#add-new-category .nameCategory {
+    min-width: 425px;
+}
+
+#add-new-category .submit {
+    text-align: center;
+}
+
+#add-new-category button {
+    min-width: 100px;
+}

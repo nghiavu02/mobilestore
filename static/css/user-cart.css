@@ -1,0 +1,54 @@
+.cart-page{
+
+}
+.cart-page .cart-title{
+
+}
+.cart-page .cart-title h3{
+    text-align: center;
+    color: blue;
+}
+.cart-page .cart-content{
+    margin-top: 40px;
+}
+.cart-page img{
+    display: inline-block;
+    width: 30px;
+    height: auto;
+}
+.cart-page a:hover{
+    color: blue !important;
+}
+.cart-page td{
+    border: 1px solid black;
+}
+.cart-page input{
+    width: 50px;
+    height: 40px;
+}
+.cart-page .updateGioHang{
+    position: absolute;
+    right: 15px;
+}
+.cart-page .item{
+    width: 30px;
+    display: inline-block;
+    text-align: center;
+}
+
+.cart-page .second-table{
+    width: 100%;
+}
+.cart-page .second-table th{
+    padding: 22px;
+}
+.cart-page .second-table .total-price{
+    color: red;
+}
+.cart-page .second-table .datHang{
+    width: 100%;
+}
+.cart-page .second-table .tiepTuc{
+    width: 100%;
+    margin-top: 20px;
+}

@@ -1,0 +1,13 @@
+#order-checkout {
+}
+#order-checkout .content {
+	margin-top: 20px;
+}
+#order-checkout .success {
+	color: green;
+	font-weight: bold;
+}
+#order-checkout .fail {
+	color: red;
+	font-weight: bold;
+}

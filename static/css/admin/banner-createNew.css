@@ -1,0 +1,28 @@
+.createNewBanner {
+
+}
+
+.createNewBanner input {
+    cursor: pointer;
+    background: gray;
+    color: white;
+}
+
+.createNewBanner .content {
+    margin-top: 100px;
+}
+
+.createNewBanner .success {
+    color: green;
+    font-weight: bold;
+}
+
+.createNewBanner .fail {
+    color: red;
+    font-weight: bold;
+}
+
+.createNewBanner .invalidSize {
+    color: red;
+    font-weight: bold;
+}

@@ -1,0 +1,53 @@
+#supplier-list{
+
+}
+#supplier-list .top-menu{
+    display: flex;
+    justify-content: space-between;
+}
+#supplier-list .addSuccess {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#supplier-list .addFail {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#supplier-list .top-menu input{
+    min-width: 330px;
+    height: 40px;
+    outline: unset;
+    padding: 0 15px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+#supplier-list h4{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+#supplier-list th.c1,
+#supplier-list td.c1{
+    width: 2%;
+}
+#supplier-list th.c2,
+#supplier-list td.c2{
+    width: 25%;
+}
+#supplier-list th.c3,
+#supplier-list td.c3{
+    width: 20%;
+}
+#supplier-list th.c6,
+#supplier-list td.c6{
+    width: 5%;
+}
+#supplier-list td.c3 img{
+    height: 20%;
+}

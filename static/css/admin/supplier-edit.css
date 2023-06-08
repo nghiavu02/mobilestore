@@ -1,0 +1,58 @@
+#edit-supplier {
+
+}
+#edit-supplier .searchSupplier{
+    color: red;
+    margin-top: 15px;
+}
+
+#edit-supplier .addSuccess {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#edit-supplier .addFail {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#edit-supplier .enameSupplier {
+    min-width: 425px;
+}
+#edit-supplier .edienthoai {
+    min-width: 425px;
+}
+#edit-supplier .ediachi {
+    min-width: 425px;
+}
+
+#edit-supplier .file {
+    width: 400px;
+    margin: 5px;
+    background: lightgray;
+    color: black;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#edit-supplier .ecn4g,
+#edit-supplier .ensx,
+#edit-supplier .encc,
+#edit-supplier .etheloai {
+    width: 200px;
+    cursor: pointer;
+}
+
+#edit-supplier .submit {
+    text-align: center;
+}
+
+#edit-supplier button {
+    min-width: 100px;
+}

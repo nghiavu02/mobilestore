@@ -1,0 +1,37 @@
+#mobile-detail {
+}
+#mobile-detail th.col1,
+#mobile-detail td.col1 {
+	width: 20%;
+}
+#mobile-detail td {
+	padding: 0;
+}
+#mobile-detail td.img1 {
+	margin: auto;
+}
+#mobile-detail td.img img {
+	width: 23%;
+	border: 1px solid gray;
+}
+#mobile-detail .detail {
+	font-weight: bold;
+	color: #1b1b1b;
+}
+#mobile-detail .addSuccess,
+#mobile-detail .updateImageSuccess {
+	color: green;
+	font-weight: bold;
+	text-align: center;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+#mobile-detail .addFail,
+#mobile-detail .updateImageFail {
+	color: red;
+	font-weight: bold;
+	text-align: center;
+	font-size: 20px;
+	text-transform: uppercase;
+}

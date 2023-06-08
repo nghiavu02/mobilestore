@@ -1,0 +1,23 @@
+#listShipping{
+    
+}
+
+#listShipping tr.tr:hover{
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    background-color: gray;
+}
+
+#listShipping td.tien{
+    color: red;
+    font-weight: bold;
+}
+
+#listShipping td.trangthai{
+    color: blue;
+}
+
+#listShipping .content{
+    margin-top: 20px;
+}

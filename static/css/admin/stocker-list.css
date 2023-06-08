@@ -1,0 +1,7 @@
+.stocker-list{
+
+}
+.stocker-list .content th,
+.stocker-list .content td{
+    padding: 10px 0;
+}

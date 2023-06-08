@@ -1,0 +1,58 @@
+#edit-manufacturer {
+
+}
+#edit-manufacturer .searchManufacturer{
+    color: red;
+    margin-top: 15px;
+}
+
+#edit-manufacturer .addSuccess {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#edit-manufacturer .addFail {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#edit-manufacturer .enameManufacturer {
+    min-width: 425px;
+}
+#edit-manufacturer .edienthoai {
+    min-width: 425px;
+}
+#edit-manufacturer .ediachi {
+    min-width: 425px;
+}
+
+#edit-manufacturer .file {
+    width: 400px;
+    margin: 5px;
+    background: lightgray;
+    color: black;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#edit-manufacturer .ecn4g,
+#edit-manufacturer .ensx,
+#edit-manufacturer .encc,
+#edit-manufacturer .etheloai {
+    width: 200px;
+    cursor: pointer;
+}
+
+#edit-manufacturer .submit {
+    text-align: center;
+}
+
+#edit-manufacturer button {
+    min-width: 100px;
+}

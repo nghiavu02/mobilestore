@@ -1,0 +1,162 @@
+.product-detail {
+    margin-top: 40px;
+}
+
+.product-detail .p-wrap {
+    display: flex;
+}
+
+/* style for slide image */
+.product-detail .p-image {
+    width: 40%;
+    float: left;
+    /* border: 1px solid #727272; */
+    min-height: 200px;
+    background-color: white;
+}
+
+.product-detail .p-image #myCarousel {
+    margin: 5px auto;
+}
+
+.product-detail .carousel-inner > .item > a > img,
+.product-detail .carousel-inner > .item > img {
+    width: 100%;
+    margin: auto;
+}
+
+/* style for detail mobile */
+.product-detail .p-detail {
+    width: 60%;
+    float: right;
+    border: 1px dashed #ddd;
+    min-height: 200px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.product-detail .p-detail .title-mobile h3 {
+    padding: 0 40px;
+    font-family: Gotham;
+    font-weight: bold;
+}
+
+.product-detail .p-detail .p-character span {
+    display: block;
+    margin-left: 40px !important;
+    color: #101820;
+    padding: 3px 0;
+    text-decoration: none;
+    line-height: normal;
+    margin-left: 10px;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.product-detail .p-detail .p-character .check {
+    display: inline;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.product-detail .p-detail .p-character .check.conhang {
+    color: green;
+}
+
+.product-detail .p-detail .p-character .check.hethang {
+    color: red;
+}
+
+.product-detail .p-detail .action {
+    margin-left: 40px !important;
+    display: block;
+    overflow: hidden;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    margin: 15px 0;
+}
+
+.product-detail .p-detail .action button.btn-add-cart {
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    padding: 10px 0;
+    width: 130px;
+    margin: 0 5px;
+    margin-left: 0;
+    cursor: pointer;
+    font-size: 12px;
+    color: #288ad6;
+    text-transform: uppercase;
+    border: 1px solid #288ad6;
+    border-radius: 3px;
+    background: #fff;
+    transition: all .3s ease;
+}
+
+.product-detail .p-detail .action button.btn-add-wishlist {
+    margin-left: 20px;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    padding: 10px 0;
+    width: 130px;
+    cursor: pointer;
+    font-size: 12px;
+    color: #ff1493;
+    text-transform: uppercase;
+    border: 1px solid #ff1493;
+    border-radius: 3px;
+    background: #fff;
+    transition: all .3s ease;
+}
+
+.product-detail .p-detail .action button.btn-add-cart:hover {
+    color: #fff;
+    background: -webkit-linear-gradient(top, #288ad6, #288ad6);
+}
+
+.product-detail .p-detail .action button.btn-add-wishlist:hover {
+    color: #fff;
+    background: -webkit-linear-gradient(top, #ff1493, #ff1493);
+}
+
+.product-detail .p-detail .price {
+    padding: 10px 40px;
+    display: block;
+    overflow: hidden;
+    border-bottom: 1px dashed #ccc;
+}
+
+.product-detail .p-detail .price strong {
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    font-size: 32px;
+    color: #e10c00;
+    line-height: 32px;
+}
+
+.product-detail .p-detail .price span {
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    font-size: 26px;
+    color: #727272;
+    line-height: 26px;
+    padding-left: 70px;
+    text-decoration: line-through;
+}
+
+/* style for description about mobile */
+.product-detail .p-description p {
+    color: #101820;
+    font-size: 20px;
+    padding: 50px;
+    font-family: Gotham;
+    font-weight: 500;
+    border: 1px dashed #ccc;
+    border-radius: 20px;
+}

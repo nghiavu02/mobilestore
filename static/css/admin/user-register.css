@@ -1,0 +1,41 @@
+#register-account{
+
+}
+#register-account h4{
+    margin-bottom: 20px;
+    color: #101820;
+}
+
+#register-account table th{
+    width: 25%;
+}
+#register-account input{
+    width: 60%;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Nunito;
+    padding: 5px 15px;
+    border-radius: 20px;
+    outline: unset;
+}
+#register-account select{
+    width: 230px;
+    font-size: 18px;
+    padding: 5px 13px;
+    border-radius: 13px;
+    outline: unset;
+}
+#register-account select option{
+
+}
+#register-account button{
+    min-width: 150px;
+    margin-right: 20px;
+}
+#register-account #search-email {
+    color: red;
+    font-size: 18px;
+    font-family: Gotham;
+    font-weight: bold;
+    margin: 10px;
+}

@@ -1,0 +1,22 @@
+#listApproved {
+}
+
+#listApproved tr.tr:hover {
+	font-weight: bold;
+	color: white;
+	cursor: pointer;
+	background-color: gray;
+}
+
+#listApproved td.tien {
+	color: red;
+	font-weight: bold;
+}
+
+#listApproved td.trangthai {
+	color: blue;
+}
+
+#listApproved .content {
+	margin-top: 20px;
+}

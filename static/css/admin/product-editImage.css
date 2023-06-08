@@ -1,0 +1,12 @@
+#editImage{
+
+}
+
+#editImage .file {
+    width: 400px;
+    margin: 5px;
+    background: lightgray;
+    color: black;
+    cursor: pointer;
+    padding: 5px;
+}

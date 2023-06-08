@@ -1,0 +1,52 @@
+#manage-baseprice td {
+    padding: 0;
+}
+
+#manage-baseprice .c1 {
+    width: 2%;
+    text-align: center;
+}
+
+#manage-baseprice .c2 {
+    width: 3%;
+    text-align: center;
+}
+
+#manage-baseprice .c3 {
+    width: 5%;
+    text-align: center;
+}
+
+#manage-baseprice .c4 {
+    width: 1%;
+    text-align: center;
+}
+
+#manage-baseprice .c5 {
+    width: 5%;
+    text-align: center;
+}
+
+#manage-baseprice .c6 {
+    width: 1%;
+    text-align: center;
+}
+
+#manage-baseprice img {
+    height: 100px;
+    max-width: 100px;
+    margin: 10px 4px;
+}
+
+#manage-baseprice input {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#manage-baseprice .success-update,
+#manage-baseprice .success-delete {
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+}

@@ -1,0 +1,52 @@
+#manage-express td {
+    padding: 0;
+}
+
+#manage-express .c1 {
+    width: 2%;
+    text-align: center;
+}
+
+#manage-express .c2 {
+    width: 3%;
+    text-align: center;
+}
+
+#manage-express .c3 {
+    width: 5%;
+    text-align: center;
+}
+
+#manage-express .c4 {
+    width: 1%;
+    text-align: center;
+}
+
+#manage-express .c5 {
+    width: 5%;
+    text-align: center;
+}
+
+#manage-express .c6 {
+    width: 1%;
+    text-align: center;
+}
+
+#manage-express img {
+    height: 100px;
+    max-width: 100px;
+    margin: 10px 4px;
+}
+
+#manage-express input {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#manage-express .success-update,
+#manage-express .success-delete {
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+}

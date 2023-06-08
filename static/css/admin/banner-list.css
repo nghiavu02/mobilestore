@@ -1,0 +1,51 @@
+#manage-banner td {
+    padding: 0;
+}
+
+#manage-banner .c1 {
+    width: 2%;
+    text-align: center;
+}
+
+#manage-banner .c2 {
+    width: 3%;
+    text-align: center;
+}
+
+#manage-banner .c3 {
+    width: 5%;
+    text-align: center;
+}
+
+#manage-banner .c4 {
+    width: 1%;
+    text-align: center;
+}
+
+#manage-banner .c5 {
+    width: 5%;
+    text-align: center;
+}
+
+#manage-banner .c6 {
+    width: 1%;
+    text-align: center;
+}
+
+#manage-banner img {
+    height: 40%;
+    max-width: 320px;
+}
+
+#manage-banner input {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#manage-banner .success-update,
+#manage-banner .success-delete {
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+}

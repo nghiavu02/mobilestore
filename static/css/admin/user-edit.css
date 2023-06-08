@@ -1,0 +1,41 @@
+#edit-account{
+
+}
+#edit-account h4{
+    margin-bottom: 20px;
+    color: #101820;
+}
+
+#edit-account table th{
+    width: 25%;
+}
+#edit-account input{
+    width: 60%;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Nunito;
+    padding: 5px 15px;
+    border-radius: 20px;
+    outline: unset;
+}
+#edit-account select{
+    width: 230px;
+    font-size: 18px;
+    padding: 5px 13px;
+    border-radius: 13px;
+    outline: unset;
+}
+#edit-account select option{
+
+}
+#edit-account button{
+    min-width: 150px;
+    margin-right: 20px;
+}
+#edit-account #search-email {
+    color: red;
+    font-size: 18px;
+    font-family: Gotham;
+    font-weight: bold;
+    margin: 10px;
+}

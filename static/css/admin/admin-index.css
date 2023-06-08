@@ -1,0 +1,12 @@
+.action .btn {
+    min-width: 200px;
+}
+
+.admin-info .success {
+    color: green;
+    font-weight: bold;
+}
+.admin-info .fail {
+    color: red;
+    font-weight: bold;
+}

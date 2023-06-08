@@ -1,0 +1,25 @@
+#new {
+
+}
+
+#new .new-title-result {
+    width: 100%;
+    padding: 10px;
+}
+#new .new-title-result h4{
+    text-align: left;
+    font-weight: bold;
+}
+
+#new .new {
+    width: 100%;
+    display: flex;
+}
+
+#new .new .left-filter {
+    width: 20%;
+}
+
+#new .new .new-result {
+    width: 80%;
+}

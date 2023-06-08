@@ -1,0 +1,12 @@
+.action .btn{
+    min-width: 200px;
+}
+
+.seller-info .success {
+    color: green;
+    font-weight: bold;
+}
+.seller-info .fail {
+    color: red;
+    font-weight: bold;
+}

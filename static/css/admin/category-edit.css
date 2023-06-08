@@ -1,0 +1,52 @@
+#edit-category {
+
+}
+#edit-category .searchCategory{
+    color: red;
+    margin-top: 15px;
+}
+
+#edit-category .addSuccess {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#edit-category .addFail {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#edit-category .enameCategory {
+    min-width: 425px;
+}
+
+#edit-category .file {
+    width: 400px;
+    margin: 5px;
+    background: lightgray;
+    color: black;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#edit-category .ecn4g,
+#edit-category .ensx,
+#edit-category .encc,
+#edit-category .etheloai {
+    width: 200px;
+    cursor: pointer;
+}
+
+#edit-category .submit {
+    text-align: center;
+}
+
+#edit-category button {
+    min-width: 100px;
+}

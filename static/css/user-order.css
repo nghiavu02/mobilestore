@@ -1,0 +1,40 @@
+.order-page{
+
+}
+.order-page h3{
+    text-align: center;
+    color: blue;
+}
+.order-page .order-content{
+    margin-top: 40px;
+}
+.order-page input{
+    border-radius: 15px;
+    width: 100%;
+    height: 32px;
+    outline: unset;
+    padding-left: 10px;
+}
+.order-page img{
+    width: 60px;
+}
+.order-page .mobile-name{
+    position: absolute;
+    padding-top: 5px;
+}
+.order-page .count{
+    position: absolute;
+    padding-top: 35px;
+}
+.order-page .price{
+    position: absolute;
+    right: 15px;
+    padding-top: 21px;
+}
+.order-page .total-price{
+    color: red;
+    font-size: 21px;
+    position: absolute;
+    right: 15px;
+    margin-top: -4px;
+}

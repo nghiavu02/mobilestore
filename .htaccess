@@ -1,0 +1,14 @@
+ 
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^(.+)$ index.php?url=$1
+
+ErrorDocument 404 http://localhost/mobileshop/notfound/index
+ErrorDocument 500 http://localhost/mobileshop/notfound/index
+ErrorDocument 403 http://localhost/mobileshop/notfound/index
+ErrorDocument 400 http://localhost/mobileshop/notfound/index
+ErrorDocument 401 http://localhost/mobileshop/notfound/index
+
+

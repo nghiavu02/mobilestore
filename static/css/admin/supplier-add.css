@@ -1,0 +1,27 @@
+#add-new-supplier {
+
+}
+#add-new-supplier .searchSupplier{
+    color: red;
+    margin-top: 15px;
+}
+
+#add-new-supplier .nameSupplier {
+    min-width: 425px;
+}
+
+#add-new-supplier .address {
+    min-width: 425px;
+}
+
+#add-new-supplier .numberphone {
+    min-width: 425px;
+}
+
+#add-new-supplier .submit {
+    text-align: center;
+}
+
+#add-new-supplier button {
+    min-width: 100px;
+}

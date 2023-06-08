@@ -1,0 +1,42 @@
+File duoc chay dau tien la index.php
+index.php require Router.php
+Router.php se boc tach URL va tao doi tuong tuong ung voi class Controller
+sau do goi den action() cua doi tuong.
+Vi du: localhost/mobileshop/?module=product&action=index
+=> 	Controller: Product
+	Class: Product_Controller
+	Function: index
+Router se: 	object = new Product_Controller();
+			object->index()
+
+Router se include Core_Controller, Base_Controller
+
+Home_Controller extends Base_Controller extends Core_Controller
+Core_Controller: duoc goi dau tien
+	Tao ra 2 doi tuong: Layout_Loader va View_Loader
+	Layout_Loader co funcion load(layout) de include layout vao vi tri controller dang chay
+	View_Loader co function load(view, data) va show() de tai view luu vao ob_start() (chu khong hien thi ra trinh duyet, giong kieu luu vao stack)
+
+	Tuy nhien o day chua chay, ma chi tao 2 doi tuong
+Base_Controller
+	Function destruct() chay sau construct() cua Core_Controller nen da tao dc 2 doi tuong loader o tren
+	nhung chay truoc tat ca cac controller khac. 
+	O day, goi function renderLayout.
+	Function nay lam 2 viec:
+		1. Goi  obstart()
+				$this->view>show() de lay ra tat ca cac view, khong hien thi ra trinh duyet
+				$contents = ob_get_contents() // luu tat ca cac view tren vao bien content
+				ob_end_clean()
+		2. $this->layout->load(
+            	[
+                	'content' => $content
+            	]
+        	);
+        muc dich de truyen $content tu ob_start o tren cho layout.
+        data truyen cho layout la 1 mang dang:
+        	data = [
+        		'key' => 'value'
+        	]
+        Trong ham load o View_Loader co ham extract(data) cho phep goi $key va $key = value
+        Vay nen ta goi duoc $content trong layout.
+Den day, view (content) nam lot thom trong layout

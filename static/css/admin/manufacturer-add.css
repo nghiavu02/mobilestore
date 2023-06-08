@@ -1,0 +1,27 @@
+#add-new-manufacturer {
+
+}
+#add-new-manufacturer .searchManufacturer{
+    color: red;
+    margin-top: 15px;
+}
+
+#add-new-manufacturer .nameManufacturer {
+    min-width: 425px;
+}
+
+#add-new-manufacturer .address {
+    min-width: 425px;
+}
+
+#add-new-manufacturer .numberphone {
+    min-width: 425px;
+}
+
+#add-new-manufacturer .submit {
+    text-align: center;
+}
+
+#add-new-manufacturer button {
+    min-width: 100px;
+}

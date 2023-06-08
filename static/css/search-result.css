@@ -1,0 +1,25 @@
+#search {
+
+}
+
+#search .search-title-result {
+    width: 100%;
+    padding: 10px;
+}
+#search .search-title-result h4{
+    text-align: left;
+    font-weight: bold;
+}
+
+#search .search {
+    width: 100%;
+    display: flex;
+}
+
+#search .search .left-filter {
+    width: 20%;
+}
+
+#search .search .search-result {
+    width: 80%;
+}

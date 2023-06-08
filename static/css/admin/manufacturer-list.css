@@ -1,0 +1,53 @@
+#manufacturer-list{
+
+}
+#manufacturer-list .top-menu{
+    display: flex;
+    justify-content: space-between;
+}
+#manufacturer-list .addSuccess {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#manufacturer-list .addFail {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#manufacturer-list .top-menu input{
+    min-width: 330px;
+    height: 40px;
+    outline: unset;
+    padding: 0 15px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+#manufacturer-list h4{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+#manufacturer-list th.c1,
+#manufacturer-list td.c1{
+    width: 2%;
+}
+#manufacturer-list th.c2,
+#manufacturer-list td.c2{
+    width: 25%;
+}
+#manufacturer-list th.c3,
+#manufacturer-list td.c3{
+    width: 20%;
+}
+#manufacturer-list th.c6,
+#manufacturer-list td.c6{
+    width: 5%;
+}
+#manufacturer-list td.c3 img{
+    height: 20%;
+}

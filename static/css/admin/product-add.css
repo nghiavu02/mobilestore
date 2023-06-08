@@ -1,0 +1,36 @@
+#add-new-mobile {
+
+}
+#add-new-mobile .searchProduct{
+    color: red;
+    margin-top: 15px;
+}
+
+#add-new-mobile .namePhone {
+    min-width: 400px;
+}
+
+#add-new-mobile .file {
+    width: 400px;
+    margin: 5px;
+    background: lightgray;
+    color: black;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#add-new-mobile .cn4g,
+#add-new-mobile .nsx,
+#add-new-mobile .ncc,
+#add-new-mobile .theloai {
+    width: 200px;
+    cursor: pointer;
+}
+
+#add-new-mobile .submit {
+    text-align: center;
+}
+
+#add-new-mobile button {
+    min-width: 300px;
+}

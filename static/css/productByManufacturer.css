@@ -1,0 +1,25 @@
+#manufacturer {
+
+}
+
+#manufacturer .manufacturer-title-result {
+    width: 100%;
+    padding: 10px;
+}
+#manufacturer .manufacturer-title-result h4{
+    text-align: left;
+    font-weight: bold;
+}
+
+#manufacturer .manufacturer {
+    width: 100%;
+    display: flex;
+}
+
+#manufacturer .manufacturer .left-filter {
+    width: 20%;
+}
+
+#manufacturer .manufacturer .manufacturer-result {
+    width: 80%;
+}

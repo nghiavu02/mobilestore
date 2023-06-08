@@ -1,0 +1,52 @@
+#edit-mobile {
+
+}
+#edit-mobile .searchProduct{
+    color: red;
+    margin-top: 15px;
+}
+
+#edit-mobile .addSuccess {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#edit-mobile .addFail {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#edit-mobile .enamePhone {
+    min-width: 400px;
+}
+
+#edit-mobile .file {
+    width: 400px;
+    margin: 5px;
+    background: lightgray;
+    color: black;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#edit-mobile .ecn4g,
+#edit-mobile .ensx,
+#edit-mobile .encc,
+#edit-mobile .etheloai {
+    width: 200px;
+    cursor: pointer;
+}
+
+#edit-mobile .submit {
+    text-align: center;
+}
+
+#edit-mobile button {
+    min-width: 300px;
+}

@@ -1,0 +1,12 @@
+.action .btn{
+    min-width: 200px;
+}
+
+.stocker-info .success {
+    color: green;
+    font-weight: bold;
+}
+.stocker-info .fail {
+    color: red;
+    font-weight: bold;
+}
